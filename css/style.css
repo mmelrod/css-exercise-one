@@ -1,36 +1,51 @@
-body
+body {
   font-size: 14px;
 }
 
+/* set navbar settings */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* set section settings */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* set heading 1 settings */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
+/* set heading 3 examples' settings */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/* set heading 3 settings */
 h3 {
   font-size: 1.3em;
 }
 
+/* set 'element' class settings */
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/* set 'newcolor' class settings */
+.newcolor {
+    background-color: red;
+    height: 100px;
+    margin: 10px 0;
+    width: 100%;
+}
